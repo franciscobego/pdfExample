@@ -6,8 +6,6 @@ import { ApiRestService } from './service';
   styleUrls: ['./app.component.css']
 })
 
-
-
 export class AppComponent {
   
   constructor(private webService: ApiRestService ){

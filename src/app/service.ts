@@ -3,25 +3,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
  const environment = {
-    production: false,
-    firebase: {
-      apiKey: 'AIzaSyCrn8Hjli0I0rVAFQgyJge8yecAdDtn7Fs',
-      authDomain: 'bego-dashboard-qa.firebaseapp.com',
-      projectId: 'bego-dashboard-qa',
-      storageBucket: 'bego-dashboard-qa.appspot.com',
-      messagingSenderId: '935068094625',
-      appId: '1:935068094625:web:1744505d44b752d57060e0',
-    },
-    //URL_BASE: 'https://dash-dev.bego.ai/',
-    // URL_BASE: 'http://localhost:3003/',
-    // URL_BASE: 'https://dash-qa.bego.ai/',
-     URL_BASE: 'https://dash-rocket.bego.ai/',
-    // SOCKET_URL: 'http://localhost:3008/',
-    SOCKET_URI: 'https://slb.bego.ai/',
-    api_stack_key: '500d1e2920e5b45b7c56125985ef96c8',
-    link_preview_key: '5b44fa6a53a60845f1a4c463ff328f7e',
-    URL_CALENDAR: 'https://calendar.bego.ai/',
-    URL_MEET_REQ: 'http://localhost:4400/'
+     URL_BASE: 'https://url/'
   };
 @Injectable({
   providedIn: 'root',
